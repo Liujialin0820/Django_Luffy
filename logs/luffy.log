@@ -1,0 +1,134 @@
+INFO 2025-01-07 20:48:13,046 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 20:48:39,202 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 20:48:39,887 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 20:48:42,322 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 20:48:43,006 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 20:48:44,408 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 20:48:45,098 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 20:50:23,575 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 20:50:24,274 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 20:50:27,759 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 20:50:28,464 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 20:50:29,847 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 20:50:30,534 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 20:50:55,658 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 20:50:56,342 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 21:04:52,132 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 21:04:52,796 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 21:05:02,466 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 21:05:03,119 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 21:05:10,713 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 21:05:11,379 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 21:05:26,199 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 21:07:48,178 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 21:07:49,524 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:50,426 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:51,148 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:51,550 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:52,009 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:54,270 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:54,467 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:57,681 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:57,963 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:58,747 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:59,344 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:07:59,718 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:01,632 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:01,853 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:02,044 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:02,221 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:02,412 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:02,560 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:02,749 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:07,970 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:08,095 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:08,243 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:08,390 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:08,541 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:08,733 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:08,851 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:09,026 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:09,180 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:09,366 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:09,557 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:09,703 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:21,511 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:21,609 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:21,787 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:21,946 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:22,140 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:22,316 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:22,506 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:22,628 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:22,807 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:22,992 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:23,154 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:23,292 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:23,471 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:23,600 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:23,750 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:25,448 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:25,588 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:25,746 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:25,932 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:26,092 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:26,264 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:26,462 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:26,613 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:26,756 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:26,948 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:27,172 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:27,323 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:27,471 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:27,663 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:27,885 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:28,083 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:32,551 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:32,735 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:32,886 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:33,066 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:33,253 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:33,452 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:33,630 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:33,818 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:34,001 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:34,196 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:34,371 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:34,554 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:34,776 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:40,532 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:41,675 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:41,840 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:41,991 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:42,174 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:42,321 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:42,510 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:42,696 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:42,883 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:43,067 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:43,260 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:43,438 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:43,589 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:43,817 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:44,005 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:44,190 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:44,384 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:44,603 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:44,757 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:44,978 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:45,136 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:45,336 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:45,519 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:45,714 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:45,895 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:46,082 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:46,265 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:46,461 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:08:50,717 autoreload 266 C:\Users\38386\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-07 21:09:17,231 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 21:09:17,770 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:10:07,837 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-07 21:10:09,490 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:10:10,003 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:10:10,199 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-07 21:10:10,461 basehttp 213 "GET / HTTP/1.1" 200 12068
