@@ -147,3 +147,6 @@ INFO 2025-01-09 12:02:18,087 autoreload 668 Watching for file changes with StatR
 INFO 2025-01-09 12:02:20,448 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
 INFO 2025-01-09 12:05:46,941 autoreload 668 Watching for file changes with StatReloader
 INFO 2025-01-09 12:10:08,579 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\__init__.py changed, reloading.
+INFO 2025-01-09 15:16:03,644 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 15:16:23,586 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 15:16:24,459 autoreload 668 Watching for file changes with StatReloader
