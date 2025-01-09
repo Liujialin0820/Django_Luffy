@@ -1,5 +1,133 @@
 [
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -25,6 +153,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "exception_handler",
         "importPath": "rest_framework.views",
         "description": "rest_framework.views",
@@ -33,27 +170,11 @@
         "documentation": {}
     },
     {
-        "label": "DatabaseError",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "Response",
         "importPath": "rest_framework.response",
         "description": "rest_framework.response",
         "isExtraImport": true,
         "detail": "rest_framework.response",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -74,19 +195,19 @@
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "serve",
+        "importPath": "django.views.static",
+        "description": "django.views.static",
         "isExtraImport": true,
-        "detail": "django.urls",
+        "detail": "django.views.static",
         "documentation": {}
     },
     {
@@ -98,12 +219,48 @@
         "documentation": {}
     },
     {
-        "label": "sys",
+        "label": "Migration",
         "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "importPath": "luffyapi.apps.home.migrations.0001_initial",
+        "description": "luffyapi.apps.home.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Banner',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=500, verbose_name='广告标题')),",
+        "detail": "luffyapi.apps.home.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "HomeConfig",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.apps",
+        "description": "luffyapi.apps.home.apps",
+        "peekOfCode": "class HomeConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'home'",
+        "detail": "luffyapi.apps.home.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Banner",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.models",
+        "description": "luffyapi.apps.home.models",
+        "peekOfCode": "class Banner(models.Model):\n    \"\"\"轮播广告图模型\"\"\"\n    # 模型字段\n    title = models.CharField(max_length=500, verbose_name=\"广告标题\")\n    link = models.CharField(max_length=500, verbose_name=\"广告链接\")\n    # upload_to 设置上传文件的保存子目录\n    image_url = models.CharField(\n        # upload_to=\"banner\",\n        # null=True,\n        # blank=True,",
+        "detail": "luffyapi.apps.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "BannerModelSerializer",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.serializers",
+        "description": "luffyapi.apps.home.serializers",
+        "peekOfCode": "class BannerModelSerializer(serializers.ModelSerializer):\n    # 字段声明\n    # 模型序列化字段声明\n    class Meta:\n        model = Banner\n        fields = [\n            \"link\",\n            \"image_url\",\n        ]\n    # 验证方法",
+        "detail": "luffyapi.apps.home.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "BannerListAPIView",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.views",
+        "description": "luffyapi.apps.home.views",
+        "peekOfCode": "class BannerListAPIView(ListAPIView):\n    queryset = Banner.objects.filter(is_show=True, is_deleted=False).order_by(\n        \"-orders\", \"-id\"\n    )\n    serializer_class = BannerModelSerializer",
+        "detail": "luffyapi.apps.home.views",
         "documentation": {}
     },
     {
@@ -111,7 +268,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-*#6j+-ak(+d8c-tx=vbg^q#ju_j!id5csp(3l7-8d38z64$fs7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# 新增一个系统导包路径\nsys.path.insert(0, os.path.join(BASE_DIR, \"apps\"))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-*#6j+-ak(+d8c-tx=vbg^q#ju_j!id5csp(3l7-8d38z64$fs7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -147,7 +304,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # 第三方应用\n    \"corsheaders\",\n]",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # 第三方应用\n    \"corsheaders\",\n    \"rest_framework\",",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -273,7 +430,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "REST_FRAMEWORK = {\n    \"EXCEPTION_HANDLER\": \"luffyapi.utils.exceptions.custom_exception_handler\"\n}\n# CORS组的配置信息\nCORS_ORIGIN_WHITELIST = (\"127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"EXCEPTION_HANDLER\": \"luffyapi.utils.exceptions.custom_exception_handler\"\n}\n# CORS组的配置信息\nCORS_ORIGIN_WHITELIST = (\"http://127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀\nSTATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -282,7 +439,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "CORS_ORIGIN_WHITELIST = (\"127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie",
+        "peekOfCode": "CORS_ORIGIN_WHITELIST = (\"http://127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀\nSTATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -291,7 +448,43 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀\nSTATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "detail": "luffyapi.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "luffyapi.settings.dev",
+        "description": "luffyapi.settings.dev",
+        "peekOfCode": "STATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "detail": "luffyapi.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "luffyapi.settings.dev",
+        "description": "luffyapi.settings.dev",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "detail": "luffyapi.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "luffyapi.settings.dev",
+        "description": "luffyapi.settings.dev",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "detail": "luffyapi.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "luffyapi.settings.dev",
+        "description": "luffyapi.settings.dev",
+        "peekOfCode": "MEDIA_URL = \"/media/\"",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -480,7 +673,7 @@
         "kind": 5,
         "importPath": "luffyapi.urls",
         "description": "luffyapi.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    re_path(r\"media/(?P<path>.*)\", serve, {\"document_root\": settings.MEDIA_ROOT}),\n    path(\"\", include(\"home.urls\")),\n]",
         "detail": "luffyapi.urls",
         "documentation": {}
     },

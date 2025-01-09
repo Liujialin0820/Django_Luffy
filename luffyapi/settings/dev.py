@@ -12,10 +12,13 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+import sys
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# 新增一个系统导包路径
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -28,7 +31,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,6 +42,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # 第三方应用
     "corsheaders",
+    "rest_framework",
+    # 自定义应用
+    "home",
 ]
 
 MIDDLEWARE = [
@@ -155,7 +160,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.handlers.RotatingFileHandler",
-            # 日志位置,日志文件名,日志保存目录必须手动创建
+            # 日志位置,日志文件名,日志保存目录必须手动创建 要记得添加权限
             "filename": os.path.join(os.path.dirname(BASE_DIR), "logs/luffy.log"),
             # 日志文件的最大值,这里我们设置300M
             "maxBytes": 300 * 1024 * 1024,
@@ -180,5 +185,16 @@ REST_FRAMEWORK = {
 }
 
 # CORS组的配置信息
-CORS_ORIGIN_WHITELIST = ("127.0.0.1:5173",)
+CORS_ORIGIN_WHITELIST = ("http://127.0.0.1:5173",)
 CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie
+
+
+# 访问静态文件的url地址前缀
+STATIC_URL = "/static/"
+# 设置django的静态文件目录
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+
+# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+# 访问上传文件的url地址前缀
+MEDIA_URL = "/media/"
