@@ -132,3 +132,8 @@ INFO 2025-01-07 21:10:09,490 basehttp 213 "GET / HTTP/1.1" 200 12068
 INFO 2025-01-07 21:10:10,003 basehttp 213 "GET / HTTP/1.1" 200 12068
 INFO 2025-01-07 21:10:10,199 basehttp 213 "GET / HTTP/1.1" 200 12068
 INFO 2025-01-07 21:10:10,461 basehttp 213 "GET / HTTP/1.1" 200 12068
+INFO 2025-01-09 11:26:23,899 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 11:26:26,046 basehttp 213 "GET / HTTP/1.1" 200 12068
+WARNING 2025-01-09 11:26:26,420 log 248 Not Found: /favicon.ico
+WARNING 2025-01-09 11:26:26,421 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2210
+INFO 2025-01-09 11:35:28,428 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
