@@ -173,3 +173,425 @@ INFO 2025-01-09 16:05:38,272 basehttp 213 "GET /static/rest_framework/js/jquery-
 INFO 2025-01-09 16:05:38,277 basehttp 213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
 INFO 2025-01-09 16:05:38,539 basehttp 213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
 INFO 2025-01-09 16:05:54,489 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:12:08,666 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 16:12:09,706 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:12:13,760 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 16:12:14,716 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:12:19,885 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 16:12:20,834 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:20:16,296 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 16:20:17,313 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:20:19,596 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 16:20:20,516 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:21:46,545 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 16:21:47,279 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:21:49,567 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 16:21:50,395 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:23:58,231 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 16:23:59,123 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:25:31,864 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 16:25:32,813 autoreload 668 Watching for file changes with StatReloader
+WARNING 2025-01-09 16:38:05,143 log 248 Not Found: /
+WARNING 2025-01-09 16:38:05,144 basehttp 213 "GET / HTTP/1.1" 404 2719
+WARNING 2025-01-09 16:38:11,156 log 248 Not Found: /grappelli/
+WARNING 2025-01-09 16:38:11,156 basehttp 213 "GET /grappelli/ HTTP/1.1" 404 3783
+WARNING 2025-01-09 16:38:18,248 log 248 Not Found: /grappelli/admin
+WARNING 2025-01-09 16:38:18,249 basehttp 213 "GET /grappelli/admin HTTP/1.1" 404 3798
+WARNING 2025-01-09 16:38:21,633 log 248 Not Found: /grappelli/admin/
+WARNING 2025-01-09 16:38:21,635 basehttp 213 "GET /grappelli/admin/ HTTP/1.1" 404 3801
+WARNING 2025-01-09 16:38:31,010 log 248 Not Found: /grappelli/admin/admin
+WARNING 2025-01-09 16:38:31,011 basehttp 213 "GET /grappelli/admin/admin HTTP/1.1" 404 3816
+WARNING 2025-01-09 16:38:37,705 log 248 Not Found: /grappelli/
+WARNING 2025-01-09 16:38:37,706 basehttp 213 "GET /grappelli/ HTTP/1.1" 404 3783
+INFO 2025-01-09 16:38:48,832 autoreload 668 Watching for file changes with StatReloader
+WARNING 2025-01-09 16:38:57,550 log 248 Not Found: /
+WARNING 2025-01-09 16:38:57,551 basehttp 213 "GET / HTTP/1.1" 404 2719
+INFO 2025-01-09 16:40:26,723 basehttp 213 "GET /admin HTTP/1.1" 301 0
+INFO 2025-01-09 16:40:26,734 basehttp 213 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-09 16:40:26,886 basehttp 213 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 6071
+INFO 2025-01-09 16:40:27,086 basehttp 213 "GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 129057
+INFO 2025-01-09 16:40:27,088 basehttp 213 "GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+INFO 2025-01-09 16:40:27,091 basehttp 213 "GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537
+INFO 2025-01-09 16:40:27,095 basehttp 213 "GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 29614
+INFO 2025-01-09 16:40:27,097 basehttp 213 "GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+INFO 2025-01-09 16:40:27,098 basehttp 213 "GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+INFO 2025-01-09 16:40:27,098 basehttp 213 "GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+INFO 2025-01-09 16:40:27,099 basehttp 213 "GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+INFO 2025-01-09 16:40:27,170 basehttp 213 "GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+INFO 2025-01-09 16:40:27,170 basehttp 213 "GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+INFO 2025-01-09 16:40:27,172 basehttp 213 "GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+INFO 2025-01-09 16:40:34,597 basehttp 213 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 6411
+INFO 2025-01-09 16:50:18,098 autoreload 668 Watching for file changes with StatReloader
+WARNING 2025-01-09 16:51:48,756 log 248 Not Found: /test
+WARNING 2025-01-09 16:51:48,757 basehttp 213 "GET /test HTTP/1.1" 404 2596
+INFO 2025-01-09 16:51:52,253 basehttp 213 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-09 16:51:52,373 basehttp 213 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2025-01-09 16:51:52,563 basehttp 213 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-01-09 16:51:52,572 basehttp 213 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-01-09 16:51:52,574 basehttp 213 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-01-09 16:51:52,574 basehttp 213 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-01-09 16:51:52,579 basehttp 213 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-01-09 16:51:52,581 basehttp 213 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-01-09 16:51:52,583 basehttp 213 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-01-09 16:51:56,753 basehttp 213 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-09 16:51:56,802 basehttp 213 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2025-01-09 16:51:56,830 basehttp 213 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-01-09 16:51:56,851 basehttp 213 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-01-09 16:51:56,851 basehttp 213 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-01-09 16:52:14,210 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 16:52:15,179 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:52:17,253 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 16:52:18,148 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:52:21,024 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 16:52:21,974 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:52:30,276 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 16:52:31,295 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:52:34,368 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 16:52:35,280 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:52:37,304 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 16:52:38,317 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:52:42,112 basehttp 213 "GET /admin/ HTTP/1.1" 200 6654
+INFO 2025-01-09 16:52:44,113 basehttp 213 "GET /admin/home/banner/ HTTP/1.1" 200 9547
+INFO 2025-01-09 16:52:44,219 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 16:52:44,264 basehttp 213 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-01-09 16:52:44,272 basehttp 213 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-01-09 16:52:44,276 basehttp 213 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-01-09 16:52:44,281 basehttp 213 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-01-09 16:52:44,287 basehttp 213 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-01-09 16:52:44,291 basehttp 213 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-01-09 16:52:44,301 basehttp 213 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-01-09 16:52:44,322 basehttp 213 "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2025-01-09 16:52:44,330 basehttp 213 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-01-09 16:52:44,333 basehttp 213 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-01-09 16:52:44,337 basehttp 213 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-01-09 16:52:44,349 basehttp 213 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-01-09 16:52:44,392 basehttp 213 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-01-09 16:52:44,410 basehttp 213 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-01-09 16:52:44,410 basehttp 213 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-01-09 16:52:49,009 basehttp 213 "GET /admin/home/banner/add/ HTTP/1.1" 200 12160
+INFO 2025-01-09 16:52:49,044 basehttp 213 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-01-09 16:52:49,044 basehttp 213 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-01-09 16:52:49,050 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 16:54:17,526 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 16:54:18,610 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:54:20,712 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 16:54:21,697 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 16:59:28,586 basehttp 213 "GET /admin/ HTTP/1.1" 200 6654
+INFO 2025-01-09 16:59:32,710 basehttp 213 "GET /admin/home/banner/ HTTP/1.1" 200 9547
+INFO 2025-01-09 16:59:32,772 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 16:59:35,035 basehttp 213 "GET /admin/home/banner/add/ HTTP/1.1" 200 12146
+INFO 2025-01-09 16:59:35,077 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-01-09 19:00:44,668 log 248 Not Found: /favicon.ico
+WARNING 2025-01-09 19:00:44,669 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2617
+WARNING 2025-01-09 19:00:44,908 log 248 Not Found: /null
+WARNING 2025-01-09 19:00:44,909 basehttp 213 "GET /null HTTP/1.1" 404 2596
+INFO 2025-01-09 19:08:52,611 basehttp 213 "GET /admin/home/banner/add/ HTTP/1.1" 200 12146
+INFO 2025-01-09 19:08:52,653 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:15:12,746 basehttp 213 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2025-01-09 19:15:12,792 basehttp 213 "GET /admin/home/banner/ HTTP/1.1" 200 12633
+INFO 2025-01-09 19:15:12,821 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:15:12,924 basehttp 213 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-01-09 19:15:26,367 basehttp 213 "GET /admin/home/banner/add/ HTTP/1.1" 200 12146
+INFO 2025-01-09 19:15:26,391 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:15:51,751 basehttp 213 "POST /admin/home/banner/add/ HTTP/1.1" 200 12372
+INFO 2025-01-09 19:15:51,780 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:15:59,992 basehttp 213 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2025-01-09 19:16:00,017 basehttp 213 "GET /admin/home/banner/add/ HTTP/1.1" 200 12397
+INFO 2025-01-09 19:16:00,047 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:16:27,077 basehttp 213 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2025-01-09 19:16:27,104 basehttp 213 "GET /admin/home/banner/ HTTP/1.1" 200 14319
+INFO 2025-01-09 19:16:27,125 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:16:29,651 basehttp 213 "GET /admin/home/banner/ HTTP/1.1" 200 14114
+INFO 2025-01-09 19:16:29,674 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:16:45,165 basehttp 213 "GET /banner HTTP/1.1" 301 0
+INFO 2025-01-09 19:16:45,193 basehttp 213 "GET /banner/ HTTP/1.1" 200 10553
+INFO 2025-01-09 19:16:45,263 basehttp 213 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-01-09 19:16:45,268 basehttp 213 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-01-09 19:16:45,268 basehttp 213 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-01-09 19:16:45,269 basehttp 213 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-01-09 19:16:45,269 basehttp 213 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-01-09 19:16:45,269 basehttp 213 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-01-09 19:16:45,270 basehttp 213 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-01-09 19:16:45,275 basehttp 213 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-01-09 19:16:45,276 basehttp 213 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-01-09 19:16:45,276 basehttp 213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-01-09 19:16:45,277 basehttp 213 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-01-09 19:16:45,317 basehttp 213 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-01-09 19:16:49,791 basehttp 213 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2025-01-09 19:17:16,373 basehttp 213 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 12433
+INFO 2025-01-09 19:17:16,402 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:17:45,357 basehttp 213 "POST /admin/home/banner/2/change/ HTTP/1.1" 302 0
+INFO 2025-01-09 19:17:45,383 basehttp 213 "GET /admin/home/banner/ HTTP/1.1" 200 14384
+INFO 2025-01-09 19:17:45,413 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 19:17:48,314 basehttp 213 "GET /banner/ HTTP/1.1" 200 10683
+INFO 2025-01-09 20:04:10,065 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:04:25,940 basehttp 213 "GET /admin/ HTTP/1.1" 200 8114
+WARNING 2025-01-09 20:04:26,281 log 248 Not Found: /favicon.ico
+WARNING 2025-01-09 20:04:26,281 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2617
+INFO 2025-01-09 20:04:27,714 basehttp 213 "GET /admin/home/banner/ HTTP/1.1" 200 14171
+INFO 2025-01-09 20:04:27,787 basehttp 213 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-09 20:06:38,389 basehttp 213 "GET /banner HTTP/1.1" 301 0
+INFO 2025-01-09 20:10:14,000 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:10:14,888 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:10:16,834 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:10:17,541 autoreload 668 Watching for file changes with StatReloader
+ERROR 2025-01-09 20:11:01,606 exception 124 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-01-09 20:11:01,713 log 248 Bad Request: /banner
+WARNING 2025-01-09 20:11:01,715 basehttp 213 "GET /banner HTTP/1.1" 400 71555
+ERROR 2025-01-09 20:11:02,078 exception 124 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-01-09 20:11:02,100 log 248 Bad Request: /favicon.ico
+WARNING 2025-01-09 20:11:02,100 basehttp 213 "GET /favicon.ico HTTP/1.1" 400 71420
+ERROR 2025-01-09 20:11:08,555 exception 124 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-01-09 20:11:08,575 log 248 Bad Request: /banner
+WARNING 2025-01-09 20:11:08,575 basehttp 213 "GET /banner HTTP/1.1" 400 71692
+ERROR 2025-01-09 20:11:08,856 exception 124 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-01-09 20:11:08,876 log 248 Bad Request: /favicon.ico
+WARNING 2025-01-09 20:11:08,876 basehttp 213 "GET /favicon.ico HTTP/1.1" 400 71420
+INFO 2025-01-09 20:11:30,932 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:11:31,671 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:11:36,857 basehttp 213 "GET /banner HTTP/1.1" 301 0
+INFO 2025-01-09 20:11:36,930 basehttp 213 "GET /banner/ HTTP/1.1" 200 10649
+INFO 2025-01-09 20:11:37,023 basehttp 213 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-01-09 20:11:37,036 basehttp 213 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-01-09 20:11:37,047 basehttp 213 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-01-09 20:11:37,058 basehttp 213 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-01-09 20:11:37,121 basehttp 213 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-01-09 20:11:37,127 basehttp 213 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-01-09 20:11:37,142 basehttp 213 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-01-09 20:11:37,171 basehttp 213 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-01-09 20:11:37,190 basehttp 213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-01-09 20:11:37,192 basehttp 213 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-01-09 20:11:37,194 basehttp 213 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-01-09 20:11:37,203 basehttp 213 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+WARNING 2025-01-09 20:11:37,296 log 248 Not Found: /favicon.ico
+WARNING 2025-01-09 20:11:37,297 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2617
+INFO 2025-01-09 20:11:40,323 basehttp 213 "GET /banner HTTP/1.1" 301 0
+INFO 2025-01-09 20:13:27,158 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:13:40,569 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:14:33,912 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:14:34,758 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:15:03,448 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:16:02,032 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:16:02,832 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:16:05,837 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:16:06,599 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:16:25,406 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:16:26,142 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:16:42,810 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 20:16:43,604 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:17:15,021 basehttp 213 "GET /banner HTTP/1.1" 301 0
+INFO 2025-01-09 20:17:15,056 basehttp 213 "GET /banner/ HTTP/1.1" 200 10649
+INFO 2025-01-09 20:17:23,229 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:17:27,973 basehttp 213 "GET /banner/ HTTP/1.1" 200 10649
+INFO 2025-01-09 20:17:29,502 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:17:36,832 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:17:38,359 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:17:46,116 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:17:49,332 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:19:00,605 basehttp 213 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2025-01-09 20:19:00,608 basehttp 213 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2025-01-09 20:19:32,593 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:19:37,722 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:19:41,731 basehttp 213 "GET /banner/ HTTP/1.1" 200 190
+INFO 2025-01-09 20:56:24,249 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:56:25,018 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:56:26,246 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:56:26,965 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:57:39,609 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:57:40,325 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:58:14,207 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:58:14,967 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:58:25,378 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:58:26,244 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:58:46,122 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:58:46,892 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:59:26,597 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:59:27,401 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:59:48,013 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:59:48,705 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 20:59:58,095 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 20:59:58,782 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:00:05,104 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 21:00:05,848 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:00:07,078 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 21:00:07,813 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:00:09,052 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\models.py changed, reloading.
+INFO 2025-01-09 21:00:09,778 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:12:23,310 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:12:24,061 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:12:28,050 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:12:28,803 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:12:31,714 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:12:32,455 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:12:37,468 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:12:38,214 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:12:44,241 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:12:45,023 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:12:47,905 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:12:48,616 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:13:24,962 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:13:25,686 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:13:28,598 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:13:29,354 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:13:33,274 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:13:34,079 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:13:52,582 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:13:53,326 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:13:58,321 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:13:59,049 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:14:34,258 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:14:34,991 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:15:32,224 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2025-01-09 21:15:32,968 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:15:34,662 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2025-01-09 21:15:35,410 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:15:39,374 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2025-01-09 21:15:40,145 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:16:08,075 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2025-01-09 21:16:08,816 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:16:20,160 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2025-01-09 21:16:20,925 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:16:22,775 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2025-01-09 21:16:23,511 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:16:25,368 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2025-01-09 21:16:26,121 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:16:39,422 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\views.py changed, reloading.
+INFO 2025-01-09 21:16:40,198 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:17:20,899 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\urls.py changed, reloading.
+INFO 2025-01-09 21:17:21,604 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:17:24,683 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\urls.py changed, reloading.
+INFO 2025-01-09 21:17:25,456 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:17:29,572 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\urls.py changed, reloading.
+INFO 2025-01-09 21:17:30,311 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:17:33,303 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\urls.py changed, reloading.
+INFO 2025-01-09 21:17:34,008 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:17:36,969 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\urls.py changed, reloading.
+INFO 2025-01-09 21:17:37,681 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:20:43,079 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:20:44,308 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:20:47,494 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:20:48,386 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:20:50,281 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:20:51,151 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:20:55,220 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:20:55,971 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:20:58,825 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:20:59,622 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:21:02,691 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:21:03,544 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:21:05,592 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:21:06,386 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:21:09,491 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2025-01-09 21:21:10,291 autoreload 668 Watching for file changes with StatReloader
+ERROR 2025-01-09 21:21:37,753 exception 124 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-09 21:21:37,884 log 248 Bad Request: /
+WARNING 2025-01-09 21:21:37,885 basehttp 213 "GET / HTTP/1.1" 400 72209
+ERROR 2025-01-09 21:21:47,871 exception 124 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-09 21:21:47,894 log 248 Bad Request: /admin
+WARNING 2025-01-09 21:21:47,894 basehttp 213 "GET /admin HTTP/1.1" 400 72264
+ERROR 2025-01-09 21:21:55,423 exception 124 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mrliu\AppData\Roaming\Python\Python312\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-09 21:21:55,445 log 248 Bad Request: /admin/
+WARNING 2025-01-09 21:21:55,445 basehttp 213 "GET /admin/ HTTP/1.1" 400 72385
+INFO 2025-01-09 21:22:20,685 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 21:22:21,473 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 21:22:22,249 basehttp 213 "GET /admin/ HTTP/1.1" 200 8675
+INFO 2025-01-09 21:22:22,428 basehttp 213 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-01-09 21:22:22,428 basehttp 213 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-01-09 21:22:22,429 basehttp 213 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-01-09 21:22:22,430 basehttp 213 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-01-09 21:22:22,431 basehttp 213 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-01-09 21:22:22,439 basehttp 213 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-01-09 21:22:22,451 basehttp 213 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-01-09 21:22:22,456 basehttp 213 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-01-09 21:22:22,456 basehttp 213 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331

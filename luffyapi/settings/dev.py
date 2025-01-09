@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-*#6j+-ak(+d8c-tx=vbg^q#ju_j!id5csp(3l7-8d38z64$fs7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://localhost:5173", "localhost", "127.0.0.1"]
 
 # Application definition
 
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",  # 放在最前面
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -185,14 +185,25 @@ REST_FRAMEWORK = {
 }
 
 # CORS组的配置信息
-CORS_ORIGIN_WHITELIST = ("http://127.0.0.1:5173",)
-CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:5173",
+# ]
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_METHODS = [
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "DELETE",
+]
+# CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie
 
 
 # 访问静态文件的url地址前缀
 STATIC_URL = "/static/"
 # 设置django的静态文件目录
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
 MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")

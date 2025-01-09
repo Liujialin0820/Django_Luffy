@@ -16,6 +16,38 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -29,6 +61,23 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
         "documentation": {}
     },
     {
@@ -53,6 +102,14 @@
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "luffyapi.utils.models",
+        "description": "luffyapi.utils.models",
+        "isExtraImport": true,
+        "detail": "luffyapi.utils.models",
         "documentation": {}
     },
     {
@@ -125,6 +182,14 @@
         "description": "rest_framework.generics",
         "isExtraImport": true,
         "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "luffyapi.settings",
+        "description": "luffyapi.settings",
+        "isExtraImport": true,
+        "detail": "luffyapi.settings",
         "documentation": {}
     },
     {
@@ -228,6 +293,42 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.migrations.0002_alter_banner_image_url",
+        "description": "luffyapi.apps.home.migrations.0002_alter_banner_image_url",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='banner',\n            name='image_url',\n            field=models.ImageField(blank=True, max_length=255, null=True, upload_to='banner', verbose_name='广告图片'),\n        ),",
+        "detail": "luffyapi.apps.home.migrations.0002_alter_banner_image_url",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.migrations.0003_nav_banner_created_time_banner_updated_time",
+        "description": "luffyapi.apps.home.migrations.0003_nav_banner_created_time_banner_updated_time",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0002_alter_banner_image_url'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Nav',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('is_show', models.BooleanField(default=False, verbose_name='是否显示')),",
+        "detail": "luffyapi.apps.home.migrations.0003_nav_banner_created_time_banner_updated_time",
+        "documentation": {}
+    },
+    {
+        "label": "BannerAdmin",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.admin",
+        "description": "luffyapi.apps.home.admin",
+        "peekOfCode": "class BannerAdmin(admin.ModelAdmin):\n    list_display = [\n        \"title\",\n        \"link\",\n        \"image_url\",\n        \"remark\",\n        \"is_show\",\n        \"orders\",\n        \"is_deleted\",\n    ]",
+        "detail": "luffyapi.apps.home.admin",
+        "documentation": {}
+    },
+    {
+        "label": "NavAdmin",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.admin",
+        "description": "luffyapi.apps.home.admin",
+        "peekOfCode": "class NavAdmin(admin.ModelAdmin):\n    list_display = [\n        \"title\",\n        \"link\",\n        \"position\",\n        \"is_site\",\n        \"is_show\",\n        \"orders\",\n        \"is_deleted\",\n    ]",
+        "detail": "luffyapi.apps.home.admin",
+        "documentation": {}
+    },
+    {
         "label": "HomeConfig",
         "kind": 6,
         "importPath": "luffyapi.apps.home.apps",
@@ -241,7 +342,16 @@
         "kind": 6,
         "importPath": "luffyapi.apps.home.models",
         "description": "luffyapi.apps.home.models",
-        "peekOfCode": "class Banner(models.Model):\n    \"\"\"轮播广告图模型\"\"\"\n    # 模型字段\n    title = models.CharField(max_length=500, verbose_name=\"广告标题\")\n    link = models.CharField(max_length=500, verbose_name=\"广告链接\")\n    # upload_to 设置上传文件的保存子目录\n    image_url = models.CharField(\n        # upload_to=\"banner\",\n        # null=True,\n        # blank=True,",
+        "peekOfCode": "class Banner(BaseModel):\n    \"\"\"轮播广告图模型\"\"\"\n    # 模型字段\n    title = models.CharField(max_length=500, verbose_name=\"广告标题\")\n    link = models.CharField(max_length=500, verbose_name=\"广告链接\")\n    # upload_to 设置上传文件的保存子目录\n    image_url = models.ImageField(\n        upload_to=\"banner\",\n        null=True,\n        blank=True,",
+        "detail": "luffyapi.apps.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "Nav",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.models",
+        "description": "luffyapi.apps.home.models",
+        "peekOfCode": "class Nav(BaseModel):\n    \"\"\"导航菜单模型\"\"\"\n    POSITION_OPTION = (\n        (1, \"顶部导航\"),\n        (2, \"脚部导航\"),\n    )\n    title = models.CharField(max_length=500, verbose_name=\"导航标题\")\n    link = models.CharField(max_length=500, verbose_name=\"导航链接\")\n    position = models.IntegerField(\n        choices=POSITION_OPTION, default=1, verbose_name=\"导航位置\"",
         "detail": "luffyapi.apps.home.models",
         "documentation": {}
     },
@@ -255,12 +365,57 @@
         "documentation": {}
     },
     {
+        "label": "NavModelSerializer",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.serializers",
+        "description": "luffyapi.apps.home.serializers",
+        "peekOfCode": "class NavModelSerializer(serializers.ModelSerializer):\n    # 字段声明\n    # 模型序列化字段声明\n    class Meta:\n        model = Nav\n        fields = [\"link\", \"title\", \"is_site\"]\n    # 验证方法\n    # 存储数据方法",
+        "detail": "luffyapi.apps.home.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "luffyapi.apps.home.urls",
+        "description": "luffyapi.apps.home.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"banner/\", BannerListAPIView.as_view()),\n    path(\"header-nav/\", HeaderNavListAPIView.as_view()),\n    path(\"footer-nav/\", FooterNavListAPIView.as_view()),\n]",
+        "detail": "luffyapi.apps.home.urls",
+        "documentation": {}
+    },
+    {
         "label": "BannerListAPIView",
         "kind": 6,
         "importPath": "luffyapi.apps.home.views",
         "description": "luffyapi.apps.home.views",
-        "peekOfCode": "class BannerListAPIView(ListAPIView):\n    queryset = Banner.objects.filter(is_show=True, is_deleted=False).order_by(\n        \"-orders\", \"-id\"\n    )\n    serializer_class = BannerModelSerializer",
+        "peekOfCode": "class BannerListAPIView(ListAPIView):\n    queryset = Banner.objects.filter(is_show=True, is_deleted=False).order_by(\n        \"-orders\", \"-id\"\n    )[: constants.BANNER_LENGTH]\n    serializer_class = BannerModelSerializer\nclass HeaderNavListAPIView(ListAPIView):\n    queryset = Nav.objects.filter(is_show=True, is_deleted=False, position=1).order_by(\n        \"-orders\", \"-id\"\n    )[0 : constants.HEADER_NAV_LENGTH]\n    serializer_class = NavModelSerializer",
         "detail": "luffyapi.apps.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "HeaderNavListAPIView",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.views",
+        "description": "luffyapi.apps.home.views",
+        "peekOfCode": "class HeaderNavListAPIView(ListAPIView):\n    queryset = Nav.objects.filter(is_show=True, is_deleted=False, position=1).order_by(\n        \"-orders\", \"-id\"\n    )[0 : constants.HEADER_NAV_LENGTH]\n    serializer_class = NavModelSerializer\nclass FooterNavListAPIView(ListAPIView):\n    queryset = Nav.objects.filter(is_show=True, is_deleted=False, position=2).order_by(\n        \"-orders\", \"-id\"\n    )[0 : constants.FOOTER_NAV_LENGTH]\n    serializer_class = NavModelSerializer",
+        "detail": "luffyapi.apps.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "FooterNavListAPIView",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.views",
+        "description": "luffyapi.apps.home.views",
+        "peekOfCode": "class FooterNavListAPIView(ListAPIView):\n    queryset = Nav.objects.filter(is_show=True, is_deleted=False, position=2).order_by(\n        \"-orders\", \"-id\"\n    )[0 : constants.FOOTER_NAV_LENGTH]\n    serializer_class = NavModelSerializer",
+        "detail": "luffyapi.apps.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "BANNER_LENGTH",
+        "kind": 5,
+        "importPath": "luffyapi.settings.constants",
+        "description": "luffyapi.settings.constants",
+        "peekOfCode": "BANNER_LENGTH = 7\n# 首页顶部导航展示的数量\nHEADER_NAV_LENGTH=7\n# 首页底部导航展示的数量\nFOOTER_NAV_LENGTH=7",
+        "detail": "luffyapi.settings.constants",
         "documentation": {}
     },
     {
@@ -268,7 +423,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# 新增一个系统导包路径\nsys.path.insert(0, os.path.join(BASE_DIR, \"apps\"))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-*#6j+-ak(+d8c-tx=vbg^q#ju_j!id5csp(3l7-8d38z64$fs7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# 新增一个系统导包路径\nsys.path.insert(0, os.path.join(BASE_DIR, \"apps\"))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-*#6j+-ak(+d8c-tx=vbg^q#ju_j!id5csp(3l7-8d38z64$fs7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"http://localhost:5173\", \"localhost\", \"127.0.0.1\"]",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -277,7 +432,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "SECRET_KEY = \"django-insecure-*#6j+-ak(+d8c-tx=vbg^q#ju_j!id5csp(3l7-8d38z64$fs7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-*#6j+-ak(+d8c-tx=vbg^q#ju_j!id5csp(3l7-8d38z64$fs7\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"http://localhost:5173\", \"localhost\", \"127.0.0.1\"]\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -286,7 +441,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"http://localhost:5173\", \"localhost\", \"127.0.0.1\"]\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -295,7 +450,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # 第三方应用",
+        "peekOfCode": "ALLOWED_HOSTS = [\"http://localhost:5173\", \"localhost\", \"127.0.0.1\"]\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # 第三方应用",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -313,7 +468,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "MIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
+        "peekOfCode": "MIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",  # 放在最前面\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -430,25 +585,25 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "REST_FRAMEWORK = {\n    \"EXCEPTION_HANDLER\": \"luffyapi.utils.exceptions.custom_exception_handler\"\n}\n# CORS组的配置信息\nCORS_ORIGIN_WHITELIST = (\"http://127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀\nSTATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"EXCEPTION_HANDLER\": \"luffyapi.utils.exceptions.custom_exception_handler\"\n}\n# CORS组的配置信息\n# CORS_ALLOWED_ORIGINS = [\n#     \"http://localhost:5173\",\n# ]\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOWED_METHODS = [\n    \"GET\",",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
     {
-        "label": "CORS_ORIGIN_WHITELIST",
+        "label": "CORS_ALLOW_ALL_ORIGINS",
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "CORS_ORIGIN_WHITELIST = (\"http://127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀\nSTATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOWED_METHODS = [\n    \"GET\",\n    \"POST\",\n    \"PUT\",\n    \"PATCH\",\n    \"DELETE\",\n]\n# CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
     {
-        "label": "CORS_ALLOW_CREDENTIALS",
+        "label": "CORS_ALLOWED_METHODS",
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀\nSTATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "peekOfCode": "CORS_ALLOWED_METHODS = [\n    \"GET\",\n    \"POST\",\n    \"PUT\",\n    \"PATCH\",\n    \"DELETE\",\n]\n# CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie\n# 访问静态文件的url地址前缀\nSTATIC_URL = \"/static/\"",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -457,7 +612,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "STATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "peekOfCode": "STATIC_URL = \"/static/\"\n# 设置django的静态文件目录\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -466,7 +621,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错\nMEDIA_ROOT = os.path.join(BASE_DIR, \"uploads\")\n# 访问上传文件的url地址前缀\nMEDIA_URL = \"/media/\"",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -504,6 +659,15 @@
         "description": "luffyapi.utils.exceptions",
         "peekOfCode": "logger = logging.getLogger('django')\ndef custom_exception_handler(exc, context):\n    '''\n    自定义异常处理\n    :param exc: 本次请求发送的异常信息\n    :param context: 请求的上下文信息[ request/response , time, 行号等等]\n    '''\n    response = exception_handler(exc, context)\n    if response is not None:\n        # 来到这里 : 1. 没出错, 2. 出错了但是django不会处理",
         "detail": "luffyapi.utils.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "kind": 6,
+        "importPath": "luffyapi.utils.models",
+        "description": "luffyapi.utils.models",
+        "peekOfCode": "class BaseModel(models.Model):\n    \"\"\"公共模型\"\"\"\n    is_show = models.BooleanField(default=False, verbose_name=\"是否显示\")\n    orders = models.IntegerField(default=1, verbose_name=\"排序\")\n    is_deleted = models.BooleanField(default=False, verbose_name=\"是否删除\")\n    created_time = models.DateTimeField(auto_now_add=True, verbose_name=\"添加时间\")\n    updated_time = models.DateTimeField(auto_now=True, verbose_name=\"修改时间\")\n    class Meta:\n        # 设置当前模型为抽象模型，在数据迁移的时候django就不会为它单独创建一张表\n        abstract = True",
+        "detail": "luffyapi.utils.models",
         "documentation": {}
     },
     {

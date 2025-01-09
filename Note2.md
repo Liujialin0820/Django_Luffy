@@ -194,4 +194,3 @@ class Banner(models.Model):
 ```
 
 
-
