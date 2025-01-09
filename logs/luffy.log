@@ -137,3 +137,12 @@ INFO 2025-01-09 11:26:26,046 basehttp 213 "GET / HTTP/1.1" 200 12068
 WARNING 2025-01-09 11:26:26,420 log 248 Not Found: /favicon.ico
 WARNING 2025-01-09 11:26:26,421 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2210
 INFO 2025-01-09 11:35:28,428 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 11:38:50,779 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 11:39:17,728 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 11:39:18,629 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 11:39:19,953 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 11:39:20,864 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 12:02:17,083 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 12:02:18,087 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-01-09 12:02:20,448 autoreload 266 C:\Users\mrliu\OneDrive - UWA\Documents\Jialin\Study\luffycode\Backend\luffyapi\settings\dev.py changed, reloading.
+INFO 2025-01-09 12:05:46,941 autoreload 668 Watching for file changes with StatReloader

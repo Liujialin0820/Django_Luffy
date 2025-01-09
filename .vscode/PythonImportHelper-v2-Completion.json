@@ -183,7 +183,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "WSGI_APPLICATION = \"luffyapi.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = \"luffyapi.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"luffy\",\n        \"USER\": \"luffy_user\",\n        \"PASSWORD\": \"luffy\",\n        \"HOST\": \"127.0.0.1\",",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -192,7 +192,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"luffy\",\n        \"USER\": \"luffy_user\",\n        \"PASSWORD\": \"luffy\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n    }\n}",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
