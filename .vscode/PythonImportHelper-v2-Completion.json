@@ -138,7 +138,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n]",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # 第三方应用",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -147,7 +147,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n]\nMIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # 第三方应用\n    \"corsheaders\",\n]",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -156,7 +156,7 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"luffyapi.urls\"",
+        "peekOfCode": "MIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
@@ -273,7 +273,25 @@
         "kind": 5,
         "importPath": "luffyapi.settings.dev",
         "description": "luffyapi.settings.dev",
-        "peekOfCode": "REST_FRAMEWORK = {\n    \"EXCEPTION_HANDLER\": \"luffyapi.utils.exceptions.custom_exception_handler\" \n}",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"EXCEPTION_HANDLER\": \"luffyapi.utils.exceptions.custom_exception_handler\"\n}\n# CORS组的配置信息\nCORS_ORIGIN_WHITELIST = (\"127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie",
+        "detail": "luffyapi.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_WHITELIST",
+        "kind": 5,
+        "importPath": "luffyapi.settings.dev",
+        "description": "luffyapi.settings.dev",
+        "peekOfCode": "CORS_ORIGIN_WHITELIST = (\"127.0.0.1:5173\",)\nCORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie",
+        "detail": "luffyapi.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_CREDENTIALS",
+        "kind": 5,
+        "importPath": "luffyapi.settings.dev",
+        "description": "luffyapi.settings.dev",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = False  # 是否允许携带cookie",
         "detail": "luffyapi.settings.dev",
         "documentation": {}
     },
