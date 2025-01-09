@@ -56,6 +56,22 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -64,11 +80,51 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
         "documentation": {}
     },
     {
@@ -122,14 +178,6 @@
         "documentation": {}
     },
     {
-        "label": "status",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -144,22 +192,6 @@
         "description": "django.core.asgi",
         "isExtraImport": true,
         "detail": "django.core.asgi",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "re_path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -211,6 +243,24 @@
         "description": "luffyapi.apps.home.models",
         "peekOfCode": "class Banner(models.Model):\n    \"\"\"轮播广告图模型\"\"\"\n    # 模型字段\n    title = models.CharField(max_length=500, verbose_name=\"广告标题\")\n    link = models.CharField(max_length=500, verbose_name=\"广告链接\")\n    # upload_to 设置上传文件的保存子目录\n    image_url = models.CharField(\n        # upload_to=\"banner\",\n        # null=True,\n        # blank=True,",
         "detail": "luffyapi.apps.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "BannerModelSerializer",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.serializers",
+        "description": "luffyapi.apps.home.serializers",
+        "peekOfCode": "class BannerModelSerializer(serializers.ModelSerializer):\n    # 字段声明\n    # 模型序列化字段声明\n    class Meta:\n        model = Banner\n        fields = [\n            \"link\",\n            \"image_url\",\n        ]\n    # 验证方法",
+        "detail": "luffyapi.apps.home.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "BannerListAPIView",
+        "kind": 6,
+        "importPath": "luffyapi.apps.home.views",
+        "description": "luffyapi.apps.home.views",
+        "peekOfCode": "class BannerListAPIView(ListAPIView):\n    queryset = Banner.objects.filter(is_show=True, is_deleted=False).order_by(\n        \"-orders\", \"-id\"\n    )\n    serializer_class = BannerModelSerializer",
+        "detail": "luffyapi.apps.home.views",
         "documentation": {}
     },
     {
@@ -623,7 +673,7 @@
         "kind": 5,
         "importPath": "luffyapi.urls",
         "description": "luffyapi.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    re_path(r\"media/(?P<path>.*)\", serve, {\"document_root\": settings.MEDIA_ROOT}),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    re_path(r\"media/(?P<path>.*)\", serve, {\"document_root\": settings.MEDIA_ROOT}),\n    path(\"\", include(\"home.urls\")),\n]",
         "detail": "luffyapi.urls",
         "documentation": {}
     },
