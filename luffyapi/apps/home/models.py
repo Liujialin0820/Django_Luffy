@@ -9,10 +9,10 @@ class Banner(models.Model):
     title = models.CharField(max_length=500, verbose_name="广告标题")
     link = models.CharField(max_length=500, verbose_name="广告链接")
     # upload_to 设置上传文件的保存子目录
-    image_url = models.CharField(
-        # upload_to="banner",
-        # null=True,
-        # blank=True,
+    image_url = models.ImageField(
+        upload_to="banner",
+        null=True,
+        blank=True,
         max_length=255,
         verbose_name="广告图片",
     )
